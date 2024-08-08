@@ -61,8 +61,9 @@ const CARDS = [
       optedCourse: "Cyber Security",
       content: (
         <p>
-          The <Highlight>Cyber Security</Highlight> course provided in-depth knowledge and hands-on experience. It's a must for anyone looking to enter this field.
-        </p>
+        The <Highlight>Cyber Security</Highlight> course provided in-depth knowledge and hands-on experience. It&apos;s a must for anyone looking to enter this field.
+      </p>
+      
       ),
     },
     {
