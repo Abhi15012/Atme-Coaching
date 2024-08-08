@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "./navbar";
+import Infobar from "./infobar";
+import Page from "./page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className=' bg-gradient-to-b from-cyan-400 to-white dark:to-slate-900 h-screen'>
+        <Infobar/>
+       <div className="sticky top-10 z-50"><Navbar/></div> 
+        <Page/></body>
     </html>
   );
 }
